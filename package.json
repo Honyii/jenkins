@@ -1,0 +1,20 @@
+{
+  "name": "cypress_jenkins",
+  "version": "1.0.0",
+  "description": "cypress jenkins integration",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "jenkins"
+  ],
+  "author": "amaechi",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.10.0"
+  }
+}
