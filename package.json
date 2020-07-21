@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "cypress jenkins integration",
   "main": "index.js",
+  "engines": {
+    "node": "11.15.0",
+    "npm": "5.6.0"
+},
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run"
